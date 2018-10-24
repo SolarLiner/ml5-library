@@ -29,6 +29,11 @@ export default {
         loader: 'babel-loader',
         include,
       },
+      {
+        test: /\.ts$/,
+        exclude: /node_modules/,
+        loader: 'ts-loader',
+      },
     ],
-  }
+  },
 };

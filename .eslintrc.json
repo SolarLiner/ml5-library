@@ -4,6 +4,7 @@
         "fetch": false,
         "document": true
     },
+    "parser": "typescript-eslint-parser",
     "rules":{
         "no-console":0
     },
